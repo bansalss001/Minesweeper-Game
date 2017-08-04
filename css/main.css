@@ -1,0 +1,49 @@
+body {
+	display: block;
+	padding: 0px!important;
+	margin: 0px!important;
+	text-align: center;
+}
+
+#view {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	padding: 0px;
+	pointer-events: all;
+	background-color: black;
+	}
+
+.feild {
+	width: 40px;
+	display: inline-block;
+	height: 40px;
+	background-color: gray;
+	margin: 1px;
+	padding: 0px;
+	font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.done {
+	background-color: lightgray;
+}
+
+.mine {
+	background-image: url("../bomb.png");
+	background-size: 40px 40px;
+	background-color: yellow;
+}
+
+.flag {
+	background-color: red;
+	background-image: url("../flag.png");
+	background-size: 40px 40px;
+}
+
+#game {
+	width: 100%;
+	margin:0px;
+	padding: 0px;
+}
